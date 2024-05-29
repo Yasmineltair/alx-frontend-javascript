@@ -1,10 +1,10 @@
 export default function getResponseFromAPI() {
-  const empolyee = true;
-  return new promise((resolve, reject) => {
-    if (empolyee) {
+  const connect = true;
+  return new Promise((resolve, reject) => {
+    if (connect) {
       resolve();
     } else {
-        reject();
+      reject();
     }
   });
 }
